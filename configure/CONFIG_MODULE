@@ -13,12 +13,6 @@ E3_MODULE_VERSION:=2.2.6
 #ADCORE_DEP_VERSION:=3.2.0
 #ADSUPPORT_DEP_VERSION:=1.4.0
 #
-# ONLY IF this module has the sequencer dependency. However,
-# in most case, we don't need to enable the following line,
-# the default - latest version will be used
-#E3_SEQUENCER_NAME:=sequencer
-#E3_SEQUENCER_VERSION:=2.1.21
-# 
 #E3_KMOD_SRC_PATH:=$(E3_MODULE_SRC_PATH)
 #
 # In most case, we don't need to touch the following variables.

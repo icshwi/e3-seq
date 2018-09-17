@@ -3,6 +3,7 @@ E3_MODULES_VARIABLES:=$(sort $(filter-out $(VARS_EXCLUDES) VARS_EXCLUDES,$(.VARI
 
 .PHONY : env vars header
 
+
 ## Print interesting VARIABLES
 env: vars
 
@@ -17,3 +18,5 @@ header:
 	$(QUIET)echo ""
 
 
+existent:
+	$(QUIET)tree -L 2 $(E3_MODULES_PATH)/$(E3_MODULE_NAME)
