@@ -1,6 +1,8 @@
+
 # *** ISSUES
 # driver.makefile recursively read all include directories which were installed.
 # The only way to exclude header files is....
+
 
 iocStats_VERSION=
 autosave_VERSION=
@@ -12,16 +14,13 @@ ipmiComm_VERSION=
 #sequencer_VERSION=
 sscan_VERSION=
 
-
 std_VERSION=
 ip_VERSION=
 calc_VERSION=
-delaygen_VERSION=
 pcre_VERSION=
 stream_VERSION=
 s7plc_VERSION=
 recsync_VERSION=
-MCoreUtils_VERSION=
 
 devlib2_VERSION=
 mrfioc2_VERSION=
@@ -31,6 +30,7 @@ motor_VERSION=
 ecmc_VERSION=
 EthercatMC_VERSION=
 ecmctraining_VERSION=
+
 
 keypress_VERSION=
 sysfs_VERSION=
@@ -59,6 +59,7 @@ sis8300_VERSION=
 sis8300llrfdrv_VERSION=
 sis8300llrf_VERSION=
 
+
 ADSupport_VERSION=
 ADCore_VERSION=
 ADSimDetector_VERSION=
@@ -81,6 +82,3 @@ pva2pva_VERSION=
 pvDatabase_VERSION=
 normativeTypes_VERSION=
 pvaClient_VERSION=
-
-
-
