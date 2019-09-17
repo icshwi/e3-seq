@@ -1,4 +1,4 @@
 [submodule "sequencer-2-2"]
 	path = sequencer-2-2
 	url = https://github.com/icshwi/sequencer-2-2
-	ignore = all
+	ignore = dirty
