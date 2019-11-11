@@ -1,5 +1,5 @@
 #
-#  Copyright (c) 2018 - Present  Jeong Han Lee
+#  Copyright (c) 2018 - 2019  Jeong Han Lee
 #
 #  The program is free software: you can redistribute
 #  it and/or modify it under the terms of the GNU General Public License
@@ -17,12 +17,12 @@
 # 
 # Author  : Jeong Han Lee
 # email   : jeonghan.lee@gmail.com
-# Date    : Tuesday, September 18 11:55:37 CEST 2018
-# version : 0.0.2
+# Date    : Tuesday, September 17 21:04:39 CEST 2019
+# version : 0.0.3
 #
 # LEGACY_RSET should be defined before driver.makefile
 # require-ess from 3.0.1
-LEGACY_RSET = YES
+#LEGACY_RSET = YES
 
 where_am_I := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 include $(E3_REQUIRE_TOOLS)/driver.makefile
@@ -31,6 +31,9 @@ include $(E3_REQUIRE_CONFIG)/DECOUPLE_FLAGS
 ## Exclude linux-ppc64e6500
 #EXCLUDE_ARCHS = linux-ppc64e6500
 
+
+
+USR_CPPFLAGS += -DUSE_TYPED_RSET
 
 
 # LIBVERSION is defined in configure/CONFIG
